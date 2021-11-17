@@ -1,4 +1,4 @@
-datetime,duration_seconds,height,interpolated_height,time_to_next_eruption,time_since_last_eruption
+datetime,duration,height,interpolated_height,time_to_next_eruption,time_since_last_eruption
 2014-04-18 09:32:00+00:00,248,150.0,0.0,5280.0,5880.0
 2014-04-18 11:00:00+00:00,245,135.0,0.0,5580.0,5280.0
 2014-04-18 12:33:00+00:00,240,140.0,0.0,6540.0,5580.0
