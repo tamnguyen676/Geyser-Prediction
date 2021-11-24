@@ -1,7 +1,7 @@
 from data import NpsDataSequential
 from trainer import ModelTrainer
-from models import DefaultModel
+from model import DefaultModel
 
 data = NpsDataSequential()
 model, history = ModelTrainer.train_model(data.train_dataset, data.val_dataset,
-                                          DefaultModel.get_model(data.train_dataset), epochs=150)
+                                          DefaultNetwork.get_model(data.train_dataset), epochs=150)

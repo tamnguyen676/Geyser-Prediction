@@ -1,7 +1,7 @@
 import tensorflow as tf
 from tensorflow import keras
 from data import NpsDataSequential
-from models import DefaultModel, SequentialModel
+from model import DefaultModel, SequentialModel
 
 
 class ModelTrainer:
